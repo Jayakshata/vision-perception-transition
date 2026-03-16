@@ -1,14 +1,32 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
 # Virtual environment
 .venv/
+
+# Python cache
+__pycache__/
+*.pyc
 
 # Jupyter
 .ipynb_checkpoints/
 
-# OS
+# VS Code
+.vscode/
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Model files
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Data and outputs
+data/
+datasets/
+outputs/
+results/
+logs/
+
+# Temporary experiment files
+*.tmp
